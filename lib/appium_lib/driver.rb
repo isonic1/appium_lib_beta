@@ -2,7 +2,7 @@ require 'rubygems'
 require 'ap'
 gem 'selenium-webdriver', '~> 3.0.0.beta3.1'
 require 'selenium-webdriver'
-require 'selenium/client/errors' # used in helper.rb for CommandError
+#require 'selenium/client/errors' # used in helper.rb for CommandError
 require 'nokogiri'
 
 # common
