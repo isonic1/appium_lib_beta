@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   # 1.8.x is not supported
   s.required_ruby_version = '>= 1.9.3'
 
-  s.name          = 'appium_lib'
+  s.name          = 'appium_lib_beta'
   s.version       = Appium::VERSION
   s.date          = Appium::DATE
   s.license       = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.homepage      = 'https://github.com/appium/ruby_lib' # published as appium_lib
   s.require_paths = ['lib']
 
-  s.add_runtime_dependency 'selenium-webdriver', '~> 2.50'
+  s.add_runtime_dependency 'selenium-webdriver', '~> 3.0.0.beta3.1'
   s.add_runtime_dependency 'awesome_print', '~> 1.6'
   s.add_runtime_dependency 'json', '~> 1.8'
   s.add_runtime_dependency 'tomlrb', '~> 1.1'
