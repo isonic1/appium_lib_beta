@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'ap'
+gem 'selenium-webdriver'
 require 'selenium-webdriver'
 require 'selenium/client/errors' # used in helper.rb for CommandError
 require 'nokogiri'
